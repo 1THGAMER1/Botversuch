@@ -10,7 +10,7 @@ bot.commands = new Discord.Collection();
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is online `)
-    bot.user.setActivity("ocean!invite", {type: "PLAYING"});
+    bot.user.setActivity("JETZT 24/7 ONLINE", {type: "PLAYING"});
 
 })
 
