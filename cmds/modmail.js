@@ -1,3 +1,7 @@
+//COMMAND UNTER ARBEIT!! 
+//FUNKTIONIERT NOCH NICHT
+
+
 const { Message, MessageEmbed } = require("discord.js");
 
 module.exports.run = async(bot,message,args) => {
