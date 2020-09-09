@@ -2,12 +2,12 @@
 
 module.exports.run = async (bot,message,args) => {
 
-    message.channel.send("nächste Zahl ist 11");
+    message.channel.send("Nächste Zahl ist 12");
 
 
 }
 
 module.exports.help = {
-    name: "30s"
+    name: "nzahl"
 }
 
