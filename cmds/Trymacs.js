@@ -5,7 +5,7 @@ const randomPuppy = require('random-puppy');
 module.exports.run = async (bot,message,args) => {
     message.delete()
 
-    const subReddits = ["trymacs"];
+    const subReddits = ["Trymacs_Discord"];
     const random = subReddits[Math.floor(Math.random() * subReddits.length)];
 
     const img = await randomPuppy(random);
