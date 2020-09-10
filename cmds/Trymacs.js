@@ -1,3 +1,5 @@
+//Command wird noch ausgetestet!
+
 const { MessageEmbed } = require('discord.js');
 const randomPuppy = require('random-puppy');
 
