@@ -1,3 +1,6 @@
+//COMMAND FUNKTIONIERT NICHT
+//COMMAND IST IN ARBEIT!
+
 const { MessageEmbed, ReactionEmoji } = require('discord.js');
 
 module.exports.run = async (bot,message,args) => {
