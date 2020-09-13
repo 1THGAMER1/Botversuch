@@ -2,6 +2,7 @@ const { MessageEmbed } = require('discord.js');
 
 
 //PSC VERLOSUNGCLAN
+//NUR FÜR LIMITIERTE ZEIT!
 
 
 module.exports.run = async (bot,message,args) => {
@@ -10,9 +11,9 @@ module.exports.run = async (bot,message,args) => {
     const psc = new MessageEmbed()
     .setTitle('Paysafecard Verlosung!')
     .setColor(0x125DFF)
-    .addField('PSC TITEL', 'PSC HOW', true)
-    .setThumbnail('https://images.app.goo.gl/goYRvG94994W1Jrm8')
-    .setFooter('Für Fragen: Ocean TH GAMER#4958')
+    .addField('So machst du bei der Verlosung mit', '1. Joine dem Ocean Clan, Pro Team oder anderen Team von Ocean \n 2. Nachdem du dann im Clan angenommen worden bist schaltest du die Clan Chats frei; eins davon heißt #10€-psc-verlosung. 3. In diesem Chat musst du dann die vom Bot vorgegebene Zahl schreiben. 4. Jetzt machst du schon bei der Verlosung mit! , true)
+    .setThumbnail('https://cdn.discordapp.com/attachments/730948104307867679/754673270602858497/1AA.jpg')
+    .setFooter('Schreibe für Fragen Ocean TH GAMER#4958 an')
     message.channel.send(psc);
 }
 
