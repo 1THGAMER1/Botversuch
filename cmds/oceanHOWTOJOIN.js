@@ -8,13 +8,13 @@ module.exports.run = async (bot,message,args) => {
     message.delete();
 
     const htj = new MessageEmbed()
-    .setTitle('Placeholder!')
+    .setTitle('So joinst du Team Ocean!')
     .setColor(0x125DFF)
-    .addField('Placeholder', 'Placeholder' , true)
+    .addField('', 'Lies dir lies dir zuerst #╔-proteam-infos☠ durch und wenn du die Anforderungen nicht erfüllen solltest #╠-clan-infos-📌' , true)
     .setFooter('Schreibe für Fragen das Management von Team Ocean an')
     message.channel.send(htj);
 }
 
 module.exports.help = {
-    name : 'htj'
+    name : 'join'
 }
