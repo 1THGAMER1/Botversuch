@@ -14,7 +14,8 @@ module.exports.run = async(bot, message, args) => {
 
     const HOW = new MessageEmbed()
     .setTitle('So bewirbst du dich')
-    .addField('Um in eines unserer Teams zu kommen musst du folgendes machen:', ' Bitte melde dich in #bewerbungen und schreibe in welches Team du willst. \n  Weiteres erklärt euch dann der Manager.')
+    .addField('Um in eines unserer Teams zu kommen musst du folgendes machen:', ' Schreibe in #bewerbungen %apply. Ein Bot wird euch dann per DM anschreiben.')
+    .setFooter('Melde dich bei Fragen bei unserem Management')
     .setColor(0x125DFF)
     message.channel.send(HOW)
 
