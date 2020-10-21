@@ -6,9 +6,9 @@ message.delete()
 const partner1 = new MessageEmbed()
 .setTitle('Team Ocean Partnerschaft')
 .setColor(0x125DFF)
-.addField('▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n ◥◣◆◢◤ w-key Esport ◥◣◆◢◤ \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬', ' ◆ Ansprechsperson: <@698896761854623826> \n ◆ Discord: https://discord.gg/cGgu7TD')
-.setThumbnail('https://cdn.discordapp.com/attachments/730948104307867679/752123567340126319/20200906_131017.gif')
-.setFooter('Developed by Ocean TH GAMER')
+.addField('▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n ◥◣◆◢◤ Lyric eSports ◥◣◆◢◤ \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬', ' ◆ Ansprechsperson: <@593827236352753682> \n ◆ Discord:  https://discord.com/invite/5JjyPG2')
+.setThumbnail('https://cdn.discordapp.com/attachments/730948104307867679/758353626845544458/20200712_180707-1.png')
+.setFooter('Du willst auch Partner werden? Schreibe das Management an!')
 
 message.channel.send(partner1)
 
