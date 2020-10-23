@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
 .setColor(0x125DFF)
 .addField('▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n ◥◣◆◢◤ TEAM KODYX ◥◣◆◢◤ \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬', ' ◆ Ansprechsperson: <@488664221513678848> \n ◆ Discord: https://discord.gg/8vb4Rr3')
 .setThumbnail('https://cdn.discordapp.com/attachments/730948104307867679/752123567340126319/20200906_131017.gif')
-.setFooter('Developed by Ocean TH GAMER')
+. .setFooter(`Team Ocean`, 'https://cdn.discordapp.com/attachments/730948104307867679/761238910931304459/favicon-96x96.png');
 
 message.channel.send(partner3)
 
