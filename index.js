@@ -10,7 +10,7 @@ bot.commands = new Discord.Collection();
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is online `)
-    bot.user.setActivity(" Team Ocean Twitch", {type: "STREAMING"});
+    bot.user.setActivity(" Team Ocean Twitch", {type: "STREAMING", url:"https://twitch.tv/TeamOceanDE" });
 
 })
 
